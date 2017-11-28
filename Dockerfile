@@ -8,4 +8,4 @@ RUN \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
-ADD *.conf /etc/collectd/conf-available/
+COPY *.conf /etc/collectd/conf-available/
